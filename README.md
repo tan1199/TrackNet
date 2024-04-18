@@ -13,9 +13,9 @@ Dataset consists of video clips of 10 broadcast video. Each video contains sever
 ## Setup
 1. Clone the repository `git clone https://github.com/tan1199/TrackNet.git`
 2. Install the necessary packages `pip install -r requirements.txt`
-3. Follow below steps to convert videos to trainging images and heat-maps.
+3. Follow the below steps to convert videos to training images and heat-maps.
 	* Create an `images` subdirectory under the home directory of the repository
-    * Extract the datset in `images` folder
+    * Extract the game directories from the dataset in `images` folder
     * Create ground truth images and train/test labels via `python generate_groundtruth.py`.
     * Move `labels_train.csv and labels_val.csv` to home directory
 4. Run `python train.py` to train the model.
